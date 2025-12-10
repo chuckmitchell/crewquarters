@@ -9,7 +9,7 @@ export default function Home() {
         <h1 className="text-4xl font-bold">CrewQuarters</h1>
         <p className="text-lg">Prototype built with Next.js 16 + HeroUI</p>
         <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <Button color="primary" variant="solid">
+          <Button color="primary" variant="solid" as="a" href="/projects/new">
             Get Started
           </Button>
           <Button color="secondary" variant="bordered">

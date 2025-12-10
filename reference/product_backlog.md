@@ -19,11 +19,15 @@ This workflow is designed to be forgiving and helpful. It anticipates Annie's ne
 * **Action**: User populates the list.
 * **Smart Default**: Mark all as "Needs Room" by default.
 
-### Step 3: The "Block" (Shooting Dates & Schedule)
-* **User Action**: Now that we know *who* is coming, *when* are they coming?
-* **Smart Input**: "Production Dates" (Range).
-* **System Logic**: Automatically calculates "Accommodation Dates" (Start - 1 day, End + 1 day) for the project defaults.
-* **Visual**: Show the project timeline broken down by "Production Weeks" (Sunday-Saturday).
+### Step 3: The "Schedule" (Shooting Dates)
+## Project
+*   **Name**: String (e.g., "The Lighthouse")
+*   **Shooting Dates**: Array of { Name: String, Start: Date, End: Date }
+*   **Notes**: String
+* **User Action**: Define *when* and *where* the production is happening.
+* **Smart Input**: Add multiple "Shooting Dates" (e.g. "Lunenburg", "Halifax").
+* **Fields**: Name/Location + Date Range.
+* **System Logic**: Automatically calculates "Accommodation Dates" (Start - 1 day, End + 1 day) for each block.
 
 ### Step 4: The "Inventory" (Rough Housing)
 * **Question**: "Do you have rooms reserved yet?"
