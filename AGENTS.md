@@ -9,7 +9,7 @@ This file documents critical environment constraints, runtime commands, and arch
 - **Node Requirement:** Next.js 16 requires Node.js 18+ or 20+.
 - **System Gotcha:** The default `/usr/local/bin/node` on this system is an ancient binary (**v12.14.0**). Running `npm` or `node` directly without path interception will fail with syntax errors (`SyntaxError: Unexpected token '?'`).
 - **Tool Manager (`mise`):**
-  - Node 22 is installed and pinned via [`mise.toml`](file:///Users/charles/projects/antigravity/crewquarters/mise.toml) (`node = "22"`).
+  - Node 26 is installed and pinned via [`mise.toml`](file:///Users/charles/projects/antigravity/crewquarters/mise.toml) (`node = "26"`).
   - **Always prefix build and runner commands with `mise exec --`**:
     - Dev server: `mise exec -- npm run dev`
     - Build: `mise exec -- npm run build`
