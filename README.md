@@ -1,17 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CrewQuarters (Accommodations App)
+
+Production accommodation and housing logistics management platform for film and TV crew.
+
+## Environment & Prerequisites
+
+- **Node.js:** v20+ or v22+ required (Next.js 16).
+- **Tool Manager:** This project uses [`mise`](https://mise.jdx.dev) to pin Node 22 via [`mise.toml`](./mise.toml).
+
+To run commands with the pinned environment:
+```bash
+mise exec -- npm run dev
+# or if mise is activated in your shell:
+npm run dev
+```
 
 ## Getting Started
 
-First, run the development server:
+Run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+mise exec -- npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
