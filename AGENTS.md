@@ -29,7 +29,7 @@ This file documents critical environment constraints, runtime commands, and arch
 ## 3. Technology Stack
 
 - **Framework:** Next.js 16 (App Router, Turbopack)
-- **UI Library:** HeroUI (`@heroui/react` 2.8.5)
+- **UI Library:** HeroUI (`@heroui/react` 2.8.10)
 - **Styling:** Tailwind CSS v4 (`tailwind.config.ts`, `globals.css`)
 - **Icons & Animation:** `lucide-react`, `framer-motion`
 - **Date Handling:** `@internationalized/date`
